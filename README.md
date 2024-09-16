@@ -59,3 +59,6 @@ Steps to run migrations:
 Once the migrations are completed, you can access the application at:
 
 http://localhost
+
+###
+Time Spent on the Project: 20h

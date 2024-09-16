@@ -20,7 +20,7 @@ Ensure that you have Docker and Docker Compose installed on your system.
 Before running the project, you need to build the containers. Navigate to the root directory of the project and execute the following command:
 
 ```bash
-docker-compose build -d
+docker-compose build
 ```
 
 This command will build all the Docker containers required for the project.
@@ -29,7 +29,7 @@ This command will build all the Docker containers required for the project.
 Once the containers are built, start them using the following command:
 
 ```bash
-docker-compose up
+docker-compose up -d
 ```
 This will start all the necessary containers: yii_php, yii_postgres, yii_nginx.
 
